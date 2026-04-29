@@ -36,11 +36,11 @@ Trigger ini digunakan untuk menentukan biaya berdasarkan status pasien. Jika pas
 
 BEFORE
 Nomor antrian → BEFORE INSERT  
-Waktu diterima → BEFORE INSERT 
-Waktu selesai → BEFORE UPDATE 
-BPJS gratis → BEFORE INSERT 
-AFTER 
-Total pembayaran → AFTER INSERT 
+Waktu diterima → BEFORE INSERT  
+Waktu selesai → BEFORE UPDATE  
+BPJS gratis → BEFORE INSERT  
+AFTER  
+Total pembayaran → AFTER INSERT  
 Status obat → AFTER INSERT
 
 Kesimpulan : 
