@@ -35,12 +35,12 @@ Penjelasan :
 Trigger ini digunakan untuk menentukan biaya berdasarkan status pasien. Jika pasien memiliki status BPJS, maka total pembayaran akan diatur menjadi nol dan status pembayaran menjadi "Gratis". Jika tidak, maka status pembayaran ditetapkan sebagai "Belum Bayar".
 
 BEFORE
-Nomor antrian → BEFORE INSERT 
-Waktu diterima → BEFORE INSERT
-Waktu selesai → BEFORE UPDATE
-BPJS gratis → BEFORE INSERT
-AFTER
-Total pembayaran → AFTER INSERT
+Nomor antrian → BEFORE INSERT  
+Waktu diterima → BEFORE INSERT 
+Waktu selesai → BEFORE UPDATE 
+BPJS gratis → BEFORE INSERT 
+AFTER 
+Total pembayaran → AFTER INSERT 
 Status obat → AFTER INSERT
 
 Kesimpulan : 
